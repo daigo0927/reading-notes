@@ -216,4 +216,21 @@
 - 検証：そもそもエラーがあるのかを把握する。様々な粒度・スコープの検証を実施する。監視機能の監視
 - 自動化：自動化によってインシデントレスポンスを高速化する。運用者の負担を軽減する。手作業など不確実性の高い変更を除外する
 
+### 18章：SRE のための機械学習
 
+- [Automation and Machine Learning with Site Reliability Engineering](https://events.drupal.org/vienna2017/sessions/intelligent-automation-and-machine-learning-site-reliability-engineering.html)
+- 「RNN, CNN」という議論や「よく使われる機械学習ライブラリ」に歴史を感じる。Transformer や PyTorch などが入っていない
+- 「予測」以外にも、相関の抽出もできるとありがたい。長いトレースに寄与している属性とか
+- 変化の読みづらいスタートアップではシステムや負荷の未来予測に機械学習を効果的に使うのは難しい印象。トラブルシューティングやドキュメンテーションなどの一般知識を提供するのとかは使えそう
+  - LLM によるインシデントの要約、レポーティングなどは現実的になってきていそう
+- 関連資料
+  - [#SRE論文紹介 Detection is Better Than Cure: A Cloud Incidents Perspective V. Ganatra et. al., ESEC/FSE’23](https://speakerdeck.com/yuukit/fse23)
+  - [A Survey of AIOps for Failure Management in the Era of Large Language Models](https://arxiv.org/abs/2406.11213)
+  - [“LLM for SRE“の世界探索 - ゆううきブログ](https://blog.yuuk.io/entry/2024/the-world-of-llm4sre)
+  - [エンジニアのためのSRE論文への招待 - SRE NEXT 2023](https://sre-next.dev/2023/schedule/#jp029)
+  
+## 第３部：SRE のベストプラクティスと技術
+
+### 19章：ドキュメント作成業務の改善：エンジニアリングワークフローへのドキュメンテーションの統合
+
+- TODO
